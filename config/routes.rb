@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  root to: "spec#index"
+  root to: "examples#index"
 end
