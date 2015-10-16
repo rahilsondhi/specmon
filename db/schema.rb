@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 20151016231839) do
   create_table "examples", force: :cascade do |t|
     t.string   "file"
     t.string   "name"
-    t.integer  "run_time"
+    t.float    "run_time"
     t.string   "vcs_revision"
     t.datetime "created_at"
     t.datetime "updated_at"

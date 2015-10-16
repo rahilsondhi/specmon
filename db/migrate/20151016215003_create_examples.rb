@@ -3,7 +3,7 @@ class CreateExamples < ActiveRecord::Migration
     create_table :examples do |t|
       t.string :file
       t.string :name
-      t.integer :run_time
+      t.float :run_time
       t.string :vcs_revision
       t.timestamps
     end
