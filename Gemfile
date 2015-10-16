@@ -1,6 +1,5 @@
 source "https://rubygems.org"
 
-gem "awesome_print"
 gem "coffee-rails", "~> 4.1.0"
 gem "dotenv-rails"
 gem "faraday"
@@ -12,5 +11,5 @@ gem "uglifier", ">= 1.3.0"
 gem "unicorn"
 
 group :development, :test do
-  gem "byebug"
+  gem "pry-rails"
 end
