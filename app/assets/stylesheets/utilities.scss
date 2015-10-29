@@ -1,0 +1,5 @@
+@import "mixins";
+
+.truncate-ellipsis {
+  @include truncate(ellipsis, nowrap);
+}

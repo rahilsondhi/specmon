@@ -1,0 +1,6 @@
+@mixin truncate($overflow, $whitespace) {
+  overflow: hidden;
+  word-wrap: normal;
+  text-overflow: $overflow;
+  white-space: $whitespace;
+}

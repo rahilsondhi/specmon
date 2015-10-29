@@ -15,13 +15,15 @@
 
  */
 
-@import 'foundation_and_overrides';
+@import "foundation_and_overrides";
+@import "mixins";
+@import "utilities";
 
-.body-container {
+.examples-container {
   background-color: $white;
   border: 1px solid $iron;
   border-radius: $global-radius;
-  margin: $column-gutter auto;
+  margin: 0 auto;
   padding: $column-gutter;
   width: $row-width;
 }
