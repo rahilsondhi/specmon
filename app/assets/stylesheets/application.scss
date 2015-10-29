@@ -30,6 +30,10 @@
 }
 
 .example-row {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid $smoke;
   padding: 7px 0;
+
+  &:hover {
+    background-color: $white-smoke;
+  }
 }
