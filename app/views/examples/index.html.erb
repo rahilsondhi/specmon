@@ -4,7 +4,7 @@
   <% @examples.each do |example| %>
     <h3><%= example.name %></h3>
     <h4><%= example.file %></h4>
-    <h5><%= example.run_time %></h5>
+    <h5><%= example.run_time.round(1) %></h5>
   <% end %>
 </div>
 
