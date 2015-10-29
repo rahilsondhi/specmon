@@ -12,6 +12,16 @@
  *
  *= require_tree .
  *= require_self
- *= require foundation_and_overrides
 
  */
+
+@import 'foundation_and_overrides';
+
+.body-container {
+  background-color: $white;
+  border: 1px solid $iron;
+  border-radius: $global-radius;
+  margin: $column-gutter auto;
+  padding: $column-gutter;
+  width: $row-width;
+}
