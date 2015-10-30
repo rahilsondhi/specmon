@@ -1,0 +1,2 @@
+SHELL=/usr/local/bin/ohmycron
+*/5 * * * *  app  cd /app && rails runner ExampleFetcher.recent_builds
