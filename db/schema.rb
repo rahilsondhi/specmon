@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151016231839) do
+ActiveRecord::Schema.define(version: 20151030004716) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -26,5 +26,6 @@ ActiveRecord::Schema.define(version: 20151016231839) do
   end
 
   add_index "examples", ["vcs_revision", "run_time"], name: "index_examples_on_vcs_revision_and_run_time", using: :btree
+  add_index "examples", ["vcs_revision"], name: "index_examples_on_vcs_revision", using: :btree
 
 end
